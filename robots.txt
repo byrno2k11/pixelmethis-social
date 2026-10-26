@@ -1,0 +1,9 @@
+# Keep upcoming post images out of search results. Buffer's fetcher is not blocked.
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
